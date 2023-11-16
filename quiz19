@@ -1,0 +1,7 @@
+print("|a|b|c|ab+notb+notcb|")
+for num in range(8):
+    a = (num // 4) % 2
+    b = (num // 2) % 2
+    c = num % 2
+    result = int(a and b or (not b) or (not (c and b)))
+    print(f"|{a}|{b}|{c}|{result}|")

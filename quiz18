@@ -1,0 +1,7 @@
+print("|a|b|c|")
+
+for num in range(8):
+    a = (num // 4) % 2
+    b = (num // 2) % 2
+    c = num % 2
+    print(f"|{a}|{b}|{c}|")

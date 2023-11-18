@@ -1,0 +1,22 @@
+def tab ():
+    x_out = []
+    y_out= []
+    x=-10
+    for _ in range (100):
+
+        y = 2*(x+5)**2
+        x_out.append(x)
+        y_out.append(y)
+        x+=0.01
+    return y_out, x_out
+
+
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
+
+y, x = tab()
+plt.plot (x, y,color='r',marker='+')
+plt.xlabel ("x", fontsize=20)
+plt.xlabel ("$y=x^{(1/2)(m/s)}$", fontsize=20)
+plt.show()
+tab()

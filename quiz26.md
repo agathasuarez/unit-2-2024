@@ -26,7 +26,8 @@ plt.show()
 *Fig. 2.* Proof of work
 
 ## Part a
-Red=10=a
-Green=255=ff
-Blue=235=eb
-affeb
+Red=10=A
+Green=255=FF
+Blue=235=EB
+
+AFFEB

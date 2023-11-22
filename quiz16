@@ -1,0 +1,6 @@
+words = ["hello","main"]
+sum = 0
+for w in words:
+    num_letters = len(w)
+    sum += num_letters
+    print (sum/len(words))

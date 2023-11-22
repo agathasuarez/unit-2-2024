@@ -1,4 +1,4 @@
-# Quiz 21
+# Quiz 26
 
 ![Screen Shot 2023-11-22 at 17 50 12](https://github.com/agathasuarez/unit-2-2024/assets/142757977/e76e144c-5b5b-4004-84a3-9d65c478024f)
 
